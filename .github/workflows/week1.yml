@@ -17,6 +17,4 @@ jobs:
       - name: Show current directory
         run: pwd
 
-      - name: Demostrate Failure
-        run: exit 1
-
+      
