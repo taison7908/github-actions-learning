@@ -1,0 +1,19 @@
+name: Week 1 Fundamentals
+
+on:
+  push:
+
+jobs:
+  learn-basics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print welcome message
+        run: echo "Hello from GitHub Actions"
+
+      - name: Show operating system
+        run: uname -a
+
+      - name: Show current directory
+        run: pwd
+
